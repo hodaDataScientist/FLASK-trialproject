@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Anton&family=Bebas+Neue&family=EB+Garamond:wght@500;600;800&family=Edu+TAS+Beginner:wght@400;500;600&family=Kalam:wght@300;400&family=Monomaniac+One&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,900&family=Ms+Madi&family=Poppins:wght@600;700&family=Roboto:wght@300;500&family=Sacramento&family=Tai+Heritage+Pro&family=Teko:wght@400;500;600;700&display=swap');
+    </style>
+</head>
+<body>
+    <div class="header sticky-top">
+        <nav class="navbar navbar-expand-lg bg-amber-500">
+            <div class="container-fluid">
+                <a class="navbar-brand"><div class="navb-1">
+                    <span class="navb-1.1">Hoda</span><i class="bi bi-balloon-heart"></i>
+                </div>
+                    <span class="navb-2">Nayebi</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutme">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#myservices">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#myprojects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactme">Contact me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="scroll-progress" id="myScrollProgress"></div>
+
+    <div class="container-fluid p-0">
+        <div id="home" class="background">
+            <div class="container-fluid">
+                <div class="row hero justify-content-center heading-bg">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-0 position-relative">
+                        <div class="hero-text text-center">
+                            <div class="hero-header-intro-title">
+                                <img src="/images/svg/leaves/fall leave-8.svg" id="left-up-1" width="30">
+                                <img src="images/svg/leaves/3leaves.svg" id="middle-up-2" alt="" width="30">
+                            </div>
+                            <div class="">
+                                <h2 class="hero-message">Hi There, I'm Hoda Nayebi</h2>
+                            </div>
+                            <h1 class="sub-message">Data Scientist , Data Analyst<br><img src="images/svg/leaves/fall leave-2.svg" id="left-middle-1t" width="15" alt=""> & Bi Developer</h1>
+
+                            <p class="intro-message">
+                                I'm a storyteller for people who want to heare their<br><span id="unheared">unheared dataset's stories.</span>
+                            </p>
+                            <div class="my-message-icons mb-2">
+                                <img src="/images/svg/leaves/fall leave-4.svg" width="35" alt="">
+                                <img width="35" src="images/svg/leaves/fall leave-3.svg" alt="">
+                            </div>
+                            <button class="btn btn-warning p-3 m-3">Know Me Better</button>
+                            <button class="btn btn-warning p-3 m-3">Contact Me</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-0">
+                        <div class="row justify-content-center m-0 p-3">
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-12 datastory-img datastory-logo-container">
+                                <div class="data-story-logo position-relative w-100">
+                                    <img src="/images/svg/leaves/fall leave-6.svg" alt="" class="top-left" width="25">
+                                    <img id="header-logo" src="images/svg/bg/SVG/5th-datastory.svg">
+                                    <img src="/images/svg/leaves/fall leave-9.svg" alt="" class="top-right" width="25">
+                                    <img src="/images/svg/leaves/fall leave-5.svg" alt="" width="25" class="bottom-right">
+                                    <img src="/images/svg/leaves/fall leave-7.svg" alt="" width="25" class="bottom-left">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog container">
+            <div class="swiper-container" pagination-dynamic-bullets="true">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="s-card" id="Bi">
+                                <div class="imgBox">
+                                    <img src="/images/Business Inteligence - Copy.jpg" alt="">
+                                    <div class="question">
+                                        <h2>What is Business <span>Inteligence</span>?</h2>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p class="truncate">
+                                        Business intelligence (BI) is a term that refers to the technical and procedural infrastructure that collects,
+                                    </p>
+                                </div>
+                                <div class="footer">
+                                    <button class="button">Visit Post</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="s-card" id="Dsc">
+                                <div class="imgBox">
+                                    <img src="/images/Data Science - Copy.jpg" alt="">
+                                    <div class="question">
+                                        <h2 class="short-text">What is Data Science?</h2>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p class="truncate">
+                                        Data science is a process of consolidating, building, constructing, organizing, and structuring datasets to
+                                    </p>
+                                </div>
+                                <div class="footer">
+                                    <button class="button">Visit Post</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="s-card" id="Da">
+                                <div class="imgBox">
+                                    <img src="/images/Data Analysis - Copy.jpg" alt="">
+                                    <div class="question">
+                                        <h2 class="short-text">What is Data Analysis?</h2>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p class="truncate">
+                                        Data analysis is the process of cleaning, changing, and processing raw data and extracting actionable, relevant
+                                    </p>
+                                </div>
+                                <div class="footer">
+                                    <button class="button">Visit Post</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="s-card" id="Bi-Dsc">
+                                <div class="imgBox">
+                                    <img src="/images/Ai-Bi.jpg" alt="">
+                                    <div class="question">
+                                        <h2>What's BI & Data Science <span>Differences?</span></h2>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p class="truncate">
+                                        Data science and business intelligence (BI) are two distinct fields that are used to extract insights from data.
+                                    </p>
+                                </div>
+                                <div class="footer">
+                                    <button class="button">Visit Post</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="s-card" id="Desc-Pred">
+                                <div class="imgBox">
+                                    <img src="images/predictive-descriptive.jpg" alt="">
+                                    <div class="question">
+                                        <h2>Descriptive & Predictive <span>Analysis!?</span></h2>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p class="truncate">
+                                        Descriptive analytics and predictive analytics are two types of data analysis that are used to extract insights from data.
+                                    </p>
+                                </div>
+                                <div class="footer">
+                                    <button class="button">Visit Post</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+        <div id="aboutme" class="about-me p-0">
+            <div class="col-12 subtitle">
+                <h2 class="about-title">About Me:</h2>
+                <div id="about-line" class="title-underline"></div>
+            </div>
+            <div class="container-fluid p-0 justify-content-center d-flex">
+                <div class="row p-0">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 p-4 order-xs-1 row-img mb-3">
+                        <div class="hoda-box">
+                            <div class="rectangle_1 rectangle-box m-2">
+                                <img src="images/rectangle_1.jpg" class="img-1 rectangle-img-box">
+                            </div>
+                            <div class="rectangle_2 rectangle-box m-2">
+                                <img src="images/rectangle_2.jpg" class="img-2 rectangle-img-box">
+                            </div>
+                            <div class="rectangle_3 rectangle-box m-2">
+                                <img src="images/rectangle_3.jpg" class="img-3 rectangle-img-box">
+                            </div>
+                            <div class="rectangle_4 rectangle-box m-2">
+                                <img src="images/rectangle_4.jpg" class="img-4 rectangle-img-box">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 order-xs-2 d-flex flex-column justify-content-end">
+                        <p class="text-aboutme">
+                            Hey There,
+                            I'm Hoda Nayebi I graduated bachelor-degree in industrial engineering major from Azad University Tehran North Branch about 4 years ago. But actually, as I got familiar with the data science field I found myself on this amazing and challenging job and started to study this field by myself. As no data science field exists in my country's universities I can't study this field at these universities that's why I have to study through foreign English platforms like Coursera, Udemy, Edx, Khan Academy, etc, or watch YouTube videos to learn more details and solve my problems.
+                        </p>
+                        <div class="m-3 d-flex justify-content-center">
+                            <a href="#" class="btn btn-primary m-2">Know Me Better</a>
+                            <h3 class="sighn m-2">Hoda Nayebi !!</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="datastory-slogan col-12 subtitle">
+            <div class="slogan-box">
+                <img id="quote-up" src="images/quote-up.png" alt="" width="50">
+                <p class="slogan-text py-3">
+                    I can help you to listen to your dataset's stories
+                </p>
+                <img id="quote-down" src="images/quote-down.png" alt="" width="50">
+            </div>
+        </div>
+        <div id="aboutds" class="container-fluid about-ds">
+            <div class="row about-datastory align-items-center">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12 about-datastory-img d-flex flex-column align-items-center p-3">
+                    <img id="data-story-default" src="images/svg/bg/SVG/6th-datastory.svg" alt="">
+                    <img id="data-story" src="images/svg/bg/SVG/third-datastory.svg" alt="">
+                    <img id="write-data-story" src="images/svg/BI-svg/Bi-svg.svg" alt="">
+                    <img id="how-write-data-story" src="images/svg/Puzzle/steps-puzzle-final2.svg" alt="">
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12 about-datastory-content">
+                    <div class="Questions mt-3 ms-0">
+                        <button id="what" class="Wdatastory">What Is Data Story? </button>
+                        <div class="what-content w-100">
+                            <p>
+                                Every dataset has a story to tell, a story that contains endless information and secrets about their generators. This story can tell us about all the wrong or right decisions we made, whatever opportunities we missed that could bring us so many benefits, or whatever threats we were close to but we didn't notice them. It can also tell us about future opportunities and threats that we should use or be aware of. By listening to your dataset story, you can find out all your pros and cons, estimate your past performance, and finally improve your performance and gain more profit by using collected information.
+                            </p>
+                        </div>
+                        <button id="who" class="Wdatastory">Who Can Write Your Data Story? </button>
+                        <div class="who-content w-100">
+                            <p>
+                                This is where data storytelling comes in. Data storytelling is a way of communicating to your audience using data visualizations. The goal is to present complex ideas from data in an easy-to-understand format for your audience to understand . It is an integrative practice that incorporates knowledge and skills from several disciplines, including communication, analysis, and design.It combines business analytics, data mining, data visualization, data tools and infrastructure, and best practices to help organizations make more data-driven decisions .
+                            </p>
+                        </div>
+                        <button id="how" class="Wdatastory">How Data Story Help You? </button>
+                        <div class="how-content w-100">
+                            <p>
+                                To create a data story, you need to start by setting the scene of the current situation, proceed by providing insights that lead up to the central insight, and end with relevant recommendations . You can use various content types such as presentations, documents, videos, infographics, printables, charts, and graphs to bring life to your data .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services" id="myservices">
+            <div class="container p-0">
+                <h2 class="services-title text-center">My Services</h2>
+                <div class="title-underline"></div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center p-0">
+                            <div class="flex-box-1">
+                                <div class="data">
+                                    <img src="images/svg/icons/my services/analytics.png" alt="">
+                                    <h2>Data Analytics</h2>
+                                    <p class="text-center">
+                                        I'll tell you about what , why and when happened by exploring your data.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center p-0">
+                            <div class="flex-box-1">
+                                <div class="data">
+                                    <img src="images/svg/icons/my services/ai.png" alt="">
+                                    <h2>Data Science</h2>
+                                    <p class="text-center">
+                                        I use algorithms, procedures, and processes to uncover hidden patterns.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center p-0">
+                            <div class="flex-box-1">
+                                <div class="data">
+                                    <img src="images/svg/icons/my services/bi-solid.png" alt="">
+                                    <h2>Data Visualization</h2>
+                                    <p class="text-center">
+                                        I'll show you trends, outliers, and patterns in data by using data visualization tools.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="myprojects" class="my-projects">
+                <div class="myprojects-heading">
+                    <h2>My Projects</h2>
+                </div>
+                <ul class="project-filter p-0">
+                    <li class="list " data-filter="all">All</li>
+                    <div class="dropdown">
+                        <button id="project-app" class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Aplications
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li class="list dropdown-item" data-filter="app">Power Bi</li>
+                            <li class="list  dropdown-item" data-filter="web">Tableau</li>
+                            <li class="list  dropdown-item" data-filter="ai">Streamlit</li>
+                        </ul>
+                    </div>
+                    <li class="list" data-filter="design">Machine Learning</li>
+                    <li class="list" data-filter="web">Visualization</li>
+                    <li class="list" data-filter="ai">Data Analytics</li>
+                </ul>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center project-item-container">
+                            <div class="project-item project-box app" data-lightbox="work">
+                                <div class="project-card">
+                                    <img src="images/dashboards/Online-Sentiment-Analysis.png" class="card-img" alt="">
+                                    <div class="card-body">
+                                        <h1 class="card-title text-center">Online Sentiment Analysis</h1>
+                                        <p class="card-subtitle text-center">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button class="card-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">View More</button>
+                                        <ul class="cards__list">
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="visit project github repo"><i class="bi bi-github"></i></a></li>
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="visit dashboard online"><i class="fa fa-laptop"></i></a></li>
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="project informations"><i class="fa fa-info-circle"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center project-item-container">
+                            <div class="project-item design" data-lightbox="work">
+                                <div class="project-card">
+                                    <img src="images/dashboards/profit_analysis_dashboard.png" class="card-img" alt="">
+                                    <div class="card-body">
+                                        <h1 class="card-title text-center">Online Sentiment Analysis</h1>
+                                        <p class="card-subtitle text-center">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button class="card-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">View More</button>
+                                        <ul class="cards__list">
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="visit project github repo"><i class="bi bi-github"></i></a></li>
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="visit dashboard online"><i class="fa fa-laptop"></i></a></li>
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="project informations"><i class="fa fa-info-circle"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center project-item-container">
+                            <div class="project-item web" data-lightbox="work">
+                                <div class="project-card">
+                                    <img src="images/dashboards/PowerBI+by+State.png" class="card-img" alt="">
+                                    <div class="card-body">
+                                        <h1 class="card-title text-center">Online Sentiment Analysis</h1>
+                                        <p class="card-subtitle text-center">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button class="card-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">View More</button>
+                                        <ul class="cards__list">
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="visit project github repo"><i class="bi bi-github"></i></a></li>
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="visit dashboard online"><i class="fa fa-laptop"></i></a></li>
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="project informations"><i class="fa fa-info-circle"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center project-item-container">
+                            <div class="project-item web" data-lightbox="work">
+                                <div class="project-card">
+                                    <img src="images/dashboards/time-tracking-power-BI-dashboard.png" class="card-img" alt="">
+                                    <div class="card-body">
+                                        <h1 class="card-title text-center">Online Sentiment Analysis</h1>
+                                        <p class="card-subtitle text-center">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button class="card-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">View More</button>
+                                        <ul class="cards__list">
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="visit project github repo"><i class="bi bi-github"></i></a></li>
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="visit dashboard online"><i class="fa fa-laptop"></i></a></li>
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="project informations"><i class="fa fa-info-circle"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center project-item-container">
+                            <div class="project-item ai" data-lightbox="work">
+                                <div class="project-card">
+                                    <img src="images/dashboards/screenshot-microsoft-power-bi-new-hire-analysis-2800.png" class="card-img" alt="">
+                                    <div class="card-body">
+                                        <h1 class="card-title text-center">Online Sentiment Analysis</h1>
+                                        <p class="card-subtitle text-center">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button class="card-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">View More</button>
+                                        <ul class="cards__list">
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="visit project github repo"><i class="bi bi-github"></i></a></li>
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="visit dashboard online"><i class="fa fa-laptop"></i></a></li>
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="project informations"><i class="fa fa-info-circle"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 d-flex justify-content-center project-item-container">
+                            <div class="project-item ai" data-lightbox="work">
+                                <div class="project-card">
+                                    <img src="images/dashboards/procurement-kpi-dashboard.png" class="card-img" alt="">
+                                    <div class="card-body">
+                                        <h1 class="card-title text-center">Online Sentiment Analysis</h1>
+                                        <p class="card-subtitle text-center">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                        <button class="card-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">View More</button>
+                                        <ul class="cards__list">
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="visit project github repo"><i class="bi bi-github"></i></a></li>
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="visit dashboard online"><i class="fa fa-laptop"></i></a></li>
+                                            <li><a href="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="project informations"><i class="fa fa-info-circle"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    hello
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer id="contactme">
+                <div class="container-fluid py-3">
+                    <div class="row justify-content-center">
+                        <div class="col-6 col-sm-6 col-lg-4 d-flex flex-column align-items-center">
+                            <div class="footer-pad">
+                                <h4>Contact Me</h4>
+                                <div class="contact-item">
+                                    <a class=" d-flex align-items-baseline" href="tel:+989214377096">
+                                        <i class="fa fa-phone-square me-3"></i>
+                                        <p>
+                                            Call Me
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="contact-item call-me">
+                                    <a class="d-flex align-items-baseline" href="https://t.me/@nayebi1376">
+                                        <i class="fa fa-telegram me-3"></i>
+                                        <p>
+                                            Telegram
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="contact-item call-me">
+                                    <a class="d-flex align-items-baseline" href="https://wa.me/9227987106">
+                                        <i class="fa fa-whatsapp me-3"></i>
+                                        <p>
+                                            WhatsApp
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="contact-item call-me d-flex">
+                                    <a class="d-flex align-items-baseline" href="mailto:nayebi.hoda1376@gmail.com">
+                                        <i class="fa fa-envelope me-3"></i>
+                                        <p>
+                                            Maile Me
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-lg-4 d-flex flex-column align-items-center">
+                            <div class="footer-pad-2">
+                                <h4>Links</h4>
+                                <ul class="list-unstyled">
+                                    <li><a class="link-item" href="#aboutme"><i class="fa fa-angle-right"></i>About Me</a></li>
+                                    <li><a class="link-item" href="#aboutds"><i class="fa fa-angle-right"></i>About Data Story</a></li>
+                                    <li><a class="link-item" href="#myservices"><i class="fa fa-angle-right"></i>My Services</a></li>
+                                    <li><a class="link-item" href="#myprojects"><i class="fa fa-angle-right"></i>My Projects</a></li>
+                                    <li><a class="link-item" href="#blog.html"><i class="fa fa-angle-right"></i>blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <ul class="social-network social-circle m-0 my-4">
+                                <li><a href="#" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#" class="icoGithub" title="Github"><i class="fa fa-github"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 copy">
+                            <p class="text-center">
+                                &copy; Copyright 2023 - Hoda Nayebi. All rights reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!--to top-->
+            <div class="rounded-circle to-top" id="to-top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </div>
+            <!-- Scripts -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+            <script src="js/script.js"></script>
+        </body>
+    </html>
